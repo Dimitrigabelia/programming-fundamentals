@@ -22,14 +22,14 @@
 
 8. Create empty file and name it `random_stuff.txt`. What command will you use?
 
-9. Print to the file created in previous file output of `ls -l` of current directory. What do you see when you open that file ?
+9. Print the output of `ls -l` of current directory into the file created in previous step. What do you see when you open that file?
 
 10. Remove file `random_stuff.txt`. What command will you use?
 
 11. BONUS: using pipes create command that:
-    - Read `planets.txt` file in `data` directory
-    - Remove first row (header)
+    - Read `data-shell/data/planets.txt` file
     - Search for `WASP` in file
-    - Prints number of lines
+    - Sort by second column in descending order
+    - Print first 5 lines
 
     

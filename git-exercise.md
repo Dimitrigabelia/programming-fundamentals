@@ -1,18 +1,28 @@
 # W3 - Git
 
-We will play storytelling game (description [here](https://en.wikipedia.org/wiki/Storytelling_game)) using Git
-
-1. Create groups of 2, max 3 people
-2. Each person in the group
-    - Create repository on GitHub
-    - Add file, e.g. `story.txt` with the beginning of the story
-    ```
-    Every day John was waking up at 8. AM, taking shower, having a breakfast and going to work.
-    But today strange thing happened. John woke up and went to bathroom, where he saw...
-    ```
-    - Push your file on github and ask your another person in your group to continue your story (by forking your repository)
-    - In the meantime you continue to write your story to make merge conflict
-    - Other person make changes and then create pull request for you to merge
+1. Create repository on GitHub, e.g. `inspirational-quotes` and clone repository to your computer
 
 
-**For more information use [Git tutorial on resolving conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)**
+1. Create file `quotes.md` locally in repository. What command will you use?
+
+1. Write your favourite quote in `quotes.md` and commit changes. What command will you use?
+
+1. Check repository status. What command will you use?
+
+1. View the log of commits. What command will you use?
+
+1. Push the commits to the server. What command will you use?
+
+1. Create new branch, e.g. `education-quotes`. What command will you use?
+
+1. Add your another favourite quote in `quotes.md` and commit changes. What command will you use?
+
+1. Swap back to the master branch. What command will you use?
+
+1. Add your another favourite quote in `quotes.md` and commit changes (this will create conflicting changes). What command will you use?
+
+1. Change to `education-quotes` branch and create pull request. What command will you use?
+
+1. Resolve the conflict (i.e. edit the conflict markers to match how you want the file to look like) and commit the result. 
+
+1. Send link to your github repository
